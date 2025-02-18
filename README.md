@@ -32,10 +32,17 @@ Follow the steps in [Deploy to GitHub Pages](https://v17.angular.io/guide/deploy
 and [Publish source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)
 
 ```shell
-gco gh-pages 
-g build --output-path docs --base-href /my-microfrontend/
+g add .
+g commit -m ""
+g push
+gco gh-pages
+g merge main
+ng build --output-path docs --base-href /my-microfrontend/
 mv docs/browser/* docs/
 rm -r docs/browser/
+g add .
+g commit -m "new deploy"
+g push
 ```
 check
 https://lpgarzonr.github.io/my-microfrontend/
