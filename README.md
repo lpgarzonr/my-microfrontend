@@ -44,6 +44,10 @@ g add .
 g commit -m "new deploy"
 g push
 ```
-check
+Check the gh pages wf run
+https://github.com/lpgarzonr/my-microfrontend/actions
+
+check the changes on
+ 
 https://lpgarzonr.github.io/my-microfrontend/
 https://lpgarzonr.github.io/my-microfrontend/assets/content-configuration.json
