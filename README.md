@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Deploy to GH pages
+
+Follow the steps in [Deploy to GitHub Pages](https://v17.angular.io/guide/deployment#deploy-to-github-pages)
+and [Publish source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source)
+
+```shell
+gco gh-pages 
+g build --output-path docs --base-href /my-microfrontend/
+mv docs/browser/* docs/
+rm -r docs/browser/
+```
+check
+https://lpgarzonr.github.io/my-microfrontend/
+https://lpgarzonr.github.io/my-microfrontend/assets/content-configuration.json
