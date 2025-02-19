@@ -33,7 +33,7 @@ and [Publish source](https://docs.github.com/en/pages/getting-started-with-githu
 
 ```shell
 g add .
-g commit -m ""
+g commit -m "Change title"
 g push
 gco gh-pages
 g merge main
