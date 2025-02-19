@@ -5,7 +5,7 @@
       "nodes": [
         {
           "pathSegment": "ur-path-segment",
-          "label": "My Microfrontend Changed",
+          "label": "My Microfrontend",
           "entityType": "main",
           "hideFromNav": false,
           "urlSuffix": "/my-microfrontend/index.html",
