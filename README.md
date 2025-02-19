@@ -43,6 +43,7 @@ rm -r docs/browser/
 g add .
 g commit -m "new deploy"
 g push
+gco main
 ```
 Check the gh pages wf run
 https://github.com/lpgarzonr/my-microfrontend/actions
