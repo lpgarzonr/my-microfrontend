@@ -5,10 +5,10 @@
       "nodes": [
         {
           "pathSegment": "ur-path-segment",
-          "label": "My Microfrontend Changed",
+          "label": "My Microfrontend Local",
           "entityType": "main",
           "hideFromNav": false,
-          "urlSuffix": "/my-microfrontend/index.html",
+          "urlSuffix": "/index.html",
           "icon": "folder",
           "loadingIndicator": {
             "enabled": false
