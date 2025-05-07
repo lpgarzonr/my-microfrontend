@@ -8,7 +8,7 @@
           "label": "My Microfrontend Local",
           "entityType": "main",
           "hideFromNav": false,
-          "urlSuffix": "/index.html",
+          "url": "http://localhost:4200/index.html",
           "icon": "folder",
           "loadingIndicator": {
             "enabled": false
