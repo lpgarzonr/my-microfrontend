@@ -33,7 +33,7 @@ and [Publish source](https://docs.github.com/en/pages/getting-started-with-githu
 
 ```shell
 g add .
-g commit -m "Change title"
+g commit -m "chore: Change"
 g push
 gco gh-pages
 g merge main
@@ -44,6 +44,11 @@ g add .
 g commit -m "new deploy"
 g push
 gco main
+```
+
+```
+g add . && g commit -m "chore: Change" && g push && gco gh-pages && g merge main && ng build --output-path docs --base-href /my-microfrontend/ && mv docs/browser/* docs/ && rm -r docs/browser/ && g add . && g commit -m "new deploy" && g push && gco main
+
 ```
 Check the gh pages wf run
 https://github.com/lpgarzonr/my-microfrontend/actions

@@ -4,7 +4,7 @@
     "data": {
       "nodes": [
         {
-          "pathSegment": "ur-path-segment",
+          "pathSegment": "url-path-segment",
           "label": "My Microfrontend Local",
           "entityType": "main",
           "hideFromNav": false,
