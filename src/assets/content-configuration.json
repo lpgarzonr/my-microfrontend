@@ -4,8 +4,8 @@
     "data": {
       "nodes": [
         {
-          "pathSegment": "ur-path-segment",
-          "label": "My Microfrontend",
+          "pathSegment": "url-path-segment",
+          "label": "My Microfrontend Remote",
           "entityType": "main",
           "hideFromNav": false,
           "urlSuffix": "/my-microfrontend/index.html",
